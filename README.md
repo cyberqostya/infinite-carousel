@@ -2,7 +2,9 @@
 1. class SliderCarousel принимает объект опций:
       ```
       options = {
-         outerSlider: *// Внешний блок*,
+         outerSlider:  // Внешний блок,
+         sliderRoad:  // Дорога, которая будет перемещаться
+         slides:  // Массив слайдов (querySelectorAll)
       }
       ```
 3. Слайдер состоит из:
