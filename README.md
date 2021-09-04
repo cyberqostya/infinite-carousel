@@ -1,6 +1,9 @@
 ## [Бесконечная карусель](ya.ru)
-1. class SliderCarousel принимает объект опций options {}
-1. Слайдер состоит из:
+1. class SliderCarousel принимает объект опций:
+`options = {
+   outerSlider: Внешний блок
+}`
+3. Слайдер состоит из:
     * Внешнего окна  
     * Перемещающейся slider-road  
     * Элементов slider-road: div
