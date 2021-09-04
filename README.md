@@ -1,12 +1,17 @@
 ## [Бесконечная карусель](cyberqostya.github.io/infinite-carousel)
 1. class SliderCarousel принимает объект опций:
+      обязательные помечены *
       ```
       options = {
-         outerSlider:  // Внешний блок,
-         sliderRoad:  // Дорога, которая будет перемещаться
-         slides:  // Массив слайдов (querySelectorAll)
-         slideWidth: // Ширина 1 слайда в px
-         slideHeight: // Высота 1 слайда в px
+         *sliderBlock: // Весь родительский блок слайдера
+         outerSlider:  // Внешнее окно слайдера
+         *sliderRoad:  // Дорога, которая будет перемещаться
+         *slides:  // Массив слайдов (querySelectorAll)
+         *slideWidth: // Ширина 1 слайда в [px]
+         *slideHeight: // Высота 1 слайда [px]
+         animationSpeed: // Скорость анимации [s]
+         arrowLeft: // Стрелка управления слайдером 
+         arrowRight: // Стрелка управления слайдером
       }
       ``` 
 1. На слайдере отображается 1 слайд шириной = внешнему окну
