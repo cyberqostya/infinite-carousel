@@ -2,7 +2,7 @@
 1. class SliderCarousel принимает объект опций:
       ```
       options = {
-         outerSlider: Внешний блок
+         outerSlider: *// Внешний блок*,
       }
       ```
 3. Слайдер состоит из:
